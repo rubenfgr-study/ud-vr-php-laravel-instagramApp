@@ -1,0 +1,64 @@
+button > .avatar-container {
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px #333;
+    margin-left: 10px;
+    max-width: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+
+button > .avatar-container > .avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.avatar {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.pub_avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+}
+
+.pub_avatar > img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_card_body {
+    width: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    height: auto;
+}
+
+.image_card_body > img::before {
+    width: 200px !important;
+}
+
+.bi-heart {
+    font-size: 2rem;
+}
+
+.bi-heart-fill {
+    color: red;
+    font-size: 2rem;
+}
+
+.detail_avatar {
+    width: 100%;
+    background-color: pink;
+}
+
+.detail_avatar img {
+    width: 100% !important;
+}
+
+.btn-like:hover, .btn-dislike:hover {
+    cursor: pointer;
+}
